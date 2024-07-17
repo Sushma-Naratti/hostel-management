@@ -1,0 +1,117 @@
+/* *{
+  margin: 5px;
+} */
+
+/* navigation starts here */
+
+.img_logo img{
+      width: 1250px;
+      height: 120px;
+    }
+    
+    /* navigation bar starts here */
+    .nav_new{
+      /* padding-right: 30px; */
+      /* float: right; */
+      /* padding-top: 15px; */
+      padding-left: 10px; 
+      
+      /* margin-bottom: 50px; */
+     
+    }
+    .logo{
+    margin-right: 30px;
+    margin-left: 20px;
+    }
+    .nav_new li a{
+      text-align: center;
+      font-size: small;
+      border: 2px solid rgb(245, 247, 245);
+      border-radius: 10px;
+      /* padding-right: 30px; */
+      padding-inline: 20px;
+      margin: 1px;
+      margin-right: 5px;
+    } 
+    
+     /* body{
+      background-image: url("images/");
+    }  
+     */
+    ul{
+      list-style-type: none;
+      /* margin: 5px; */
+      padding: 0;
+      overflow: hidden;
+      border: 1px solid #005792;
+      background-color: #005792;
+      align-items: center;
+      margin:auto;
+    }
+    
+    li {
+      float: left;
+      padding: 10px;
+      padding-left: 120px;
+      /* margin-right: 5px; */
+      /* padding-right: 155px;
+      margin-bottom: 15px; */
+    }
+    
+    li a {
+      display: block;
+      color: #ffffff;
+      text-align: center;
+      padding: 10px;
+      text-decoration: none;
+    }
+    /* navigation bar ends here */
+    
+    
+    .container {
+      width: 50%;
+      background-color: white;
+      
+      padding: 20px;
+      border-radius: 5px;
+      position: absolute;
+      left: 50%;
+      top: 70%;
+      transform: translate(-50%, -50%);
+    }
+    
+    /* body {
+      background-color: blueviolet;
+    } */
+    
+    
+    .form-control {
+      border-radius: 5;
+      border: none;
+      border-bottom: 2px solid #555;
+    }
+    
+    .form-select {
+      border-radius: 5;
+      border: none;
+      border-bottom: 2px solid #555;
+    }
+    
+    .btn-primary {
+      border-radius: 0;
+      background-color: #fdb44b;
+      border: none;
+    }
+    
+    @media only screen and (max-width:600px) {
+      .container {
+          width: 90%;
+          margin-top: 30px;
+          position: absolute;
+           left: 50%;
+      top: 50%;
+          padding-bottom: 40px;
+    
+          
+      }
+    }
